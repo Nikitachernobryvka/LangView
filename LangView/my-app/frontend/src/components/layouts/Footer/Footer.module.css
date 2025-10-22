@@ -1,0 +1,31 @@
+.footer {
+    background-color: #A8B5A2;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 3px solid black;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.footer img {
+    width: 30%;
+    height: auto;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 15;
+}
+
+.footer img span {
+    pointer-events: painted;
+}

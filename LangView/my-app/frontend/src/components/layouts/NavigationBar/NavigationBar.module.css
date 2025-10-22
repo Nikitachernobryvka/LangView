@@ -1,0 +1,27 @@
+.nav {
+    position: fixed;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2px;
+    background-color: #A8B5A2;
+    border-bottom: 3px solid black;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.nav a:hover {
+    color: #6E8C67;
+}
+
+.nav a:active {
+    color: #445B3F;
+}

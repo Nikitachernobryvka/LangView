@@ -1,0 +1,27 @@
+.title {
+    text-align: center;
+    padding-top: 75px;
+    font-size: 30px;
+    color: black;
+}
+
+.indent {
+    margin: 50px 0 50px 0;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 35px;
+    background-image: url(../../assets/png/sloganBackground.png);
+    text-shadow: 0 0 10px black;
+    padding: 20px;
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+.vertical_panels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}

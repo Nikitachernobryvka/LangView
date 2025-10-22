@@ -1,0 +1,13 @@
+.home {
+    width: 20px;
+    height: auto;
+    padding-right: 35px;
+}
+
+.home img:hover {
+    content: url("../../../../assets/svg/homeLogoHover.svg");
+}
+
+.home img:active {
+    content: url("../../../../assets/svg/homeLogoActive.svg");
+}
