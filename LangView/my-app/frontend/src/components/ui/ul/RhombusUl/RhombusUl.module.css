@@ -1,0 +1,13 @@
+.rhombus {
+    list-style: none;
+    padding-left: 0;
+}
+
+.rhombus li {
+    display: list-item;
+}
+
+.rhombus li::before {
+    content: "\25C6";
+    margin-right: 5px;
+}

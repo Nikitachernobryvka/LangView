@@ -1,0 +1,14 @@
+.end_button {
+    background-color: #8E9B88;
+    color: black;
+    padding: 3px 20px;
+    border-radius: 5px;
+}
+
+.end_button:hover {
+    background-color: #A3B29F;
+}
+
+.end_button:active {
+    background-color: #7A8977;
+}

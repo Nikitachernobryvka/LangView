@@ -1,0 +1,17 @@
+.send {
+    padding: 4px 25px;
+    border-radius: 5px;
+    background-color: #A8B5A2;
+    color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.send:hover {
+    background-color: #97A48E;
+}
+
+.send:active {
+    background-color: #87937D;
+}

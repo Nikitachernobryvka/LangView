@@ -1,0 +1,30 @@
+.title {
+    padding-left: 5px;
+}
+
+.frame_example {
+    background-color: #D9D9D9;
+    padding: 15px;
+    max-width: 1495px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5);
+    margin-bottom: 35px;
+    border: 2px dashed black;
+    text-align: justify;
+}
+
+.example {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-left: 5px solid #53BDEE;
+}
+
+.example pre {
+    font-family: monospace;
+    font-size: 15px;
+}

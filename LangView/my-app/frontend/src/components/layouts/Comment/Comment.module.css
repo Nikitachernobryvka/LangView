@@ -1,0 +1,124 @@
+.comment {
+    padding: 15px 20px;
+    background-color: white;
+    max-width: 1000px;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.comment li {
+    padding: 0;
+    margin: 0;
+}
+
+.top_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.text {
+    font-size: 18px;
+    white-space: normal;
+    overflow-wrap:break-all;
+    min-width: 0;
+}
+
+.username {
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.actions_buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.button_container {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.reply_box {
+    margin-top: 15px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.replies_list {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.replies_list ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.replies_list li ul {
+    margin: 0;
+    padding: 0;
+}
+
+.replies_hidden {
+    display: none;
+}
+
+.reply_item {
+    padding-left: 0;
+    margin: 0 0 10px 0;
+}
+
+.reply_button_container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-bottom: 0;
+}
+
+.level_1_2 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+.mention {
+    color: blue;
+}
+
+.counter {
+    font-size: 16px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.editing {
+    width: 100%;
+
+}
+
+.editing_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.editing_content textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+.editing_content .button_container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}

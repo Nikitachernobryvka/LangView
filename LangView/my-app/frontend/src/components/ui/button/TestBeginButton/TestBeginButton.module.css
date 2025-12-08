@@ -1,0 +1,14 @@
+.to_begin {
+    background-color: #8E9B88;
+    padding: 3px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.to_begin:hover {
+    background-color: #A3B29F;
+}
+
+.to_begin:active {
+    background-color: #7A8977;
+}

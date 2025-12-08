@@ -1,0 +1,45 @@
+.general {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    max-height: 335px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+.grid button {
+    background-color: #D9D9D9;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 40px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.scroll {
+    overflow-y: auto;
+    flex-grow: 1;
+    min-height: 0;
+}
+
+.grid button.active {
+    background-color: #8E9B88; 
+    color: white;               
+}
+
+.grid button.selected {
+    background-color: #EAC9B7;
+}

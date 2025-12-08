@@ -1,0 +1,42 @@
+.nav {
+    position: fixed;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2px;
+    background-color: #A8B5A2;
+    border-bottom: 3px solid black;
+    z-index: 10;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    line-height: 1px;
+}
+
+.nav a:hover {
+    color: #6E8C67;
+}
+
+.nav a:active {
+    color: #445B3F;
+}
+
+.nav_left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    gap: 30px;
+}

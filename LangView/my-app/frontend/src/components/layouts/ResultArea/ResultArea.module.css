@@ -1,0 +1,22 @@
+.result_border {
+    border: 3px solid white;
+    padding: 10px;
+}
+
+.result_border h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.horizontal_line {
+    background-color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

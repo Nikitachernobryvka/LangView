@@ -1,0 +1,24 @@
+.test_info {
+    text-align: center;
+}
+
+.test_info h2 {
+    background-color: white;
+    display: inline-block;
+    padding: 5px 50px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px 0 20px 0;
+}
+
+.info_block {
+    width: 300px;
+    margin: 20px auto;
+    margin-top: 50px;
+}
+
+.info_line {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 18px;
+}

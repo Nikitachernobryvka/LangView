@@ -1,0 +1,14 @@
+.rating_button {
+    background-color: #8E9B88;
+    color: black;
+    border-radius: 5px;
+    padding: 3px 20px;
+}
+
+.rating_button:hover {
+    background-color: #A3B29F;
+}
+
+.rating_button:active {
+    background-color: #7A8977;
+}

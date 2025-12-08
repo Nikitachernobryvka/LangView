@@ -1,0 +1,29 @@
+
+.panel_container {
+    padding: 10px 0;
+}
+
+.panel_container > .frame:nth-child(odd) {
+    background-color: #C9D2C3;
+}
+
+.panel_container > .frame:nth-child(odd) li::before {
+    color: #006400
+}
+
+.panel_container > .frame:nth-child(even) {
+    background-color: #8E9B88;
+}
+
+.panel_container > .frame:nth-child(even) li::before {
+    color: #90EE90;
+}
+
+.marker {
+    color: red;
+}
+
+.note {
+    background-color: #F2FF00;
+    display: inline;
+}

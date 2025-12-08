@@ -1,0 +1,21 @@
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.question_border {
+    border: 3px solid white;
+    padding: 10px;
+}
+
+.question_border h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.horizontal_line {
+    background-color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+}

@@ -1,0 +1,47 @@
+.registerFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.registerExternal {
+    border: 2px solid black;
+    padding: 0px 10px 20px 10px;
+    border-radius: 10px;
+}
+
+.registerInternal {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.registerInternal input{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.registerInternal input::placeholder {
+    font-size: 15px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.offer {
+    font-size: 18px;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 15;
+    margin-top: 10px;
+    text-align: center;
+}

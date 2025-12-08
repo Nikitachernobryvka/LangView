@@ -1,0 +1,27 @@
+.panel {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #C9D2C3;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5);
+    margin-left: auto;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+.panel p {
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+    overflow-wrap: break-word;
+}
+
+.panel img {
+    width: auto;
+    height: 235px;
+}
+
+.panel h2 {
+    color: black;
+    font-size: 22px
+}

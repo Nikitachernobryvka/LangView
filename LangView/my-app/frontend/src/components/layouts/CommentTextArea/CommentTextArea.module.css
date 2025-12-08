@@ -1,0 +1,18 @@
+.text_area {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #E7DFDF;
+    margin-bottom: 15px;
+    font-size: 20px;
+    resize: none;
+    line-height: 15px;
+}
+
+.text_area:focus {
+    border-color: black;
+}
+
+.text_area::-webkit-scrollbar {
+    width: 0;
+}

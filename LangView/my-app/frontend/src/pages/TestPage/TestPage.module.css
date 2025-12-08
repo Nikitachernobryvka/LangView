@@ -1,0 +1,35 @@
+.test_frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.test_external {
+    display: flex;
+    flex-direction: column;
+    background-color: #C9D2C3;
+    width: 900px;
+    padding: 5px 30px 30px 30px;
+    color: black;
+}
+
+.button_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.main_container {
+    display: flex;
+    gap: 18px;
+    align-items: stretch;
+}
+
+.right_side {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}

@@ -1,0 +1,34 @@
+.begin_frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.begin_external {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #C9D2C3;
+    color: black;
+    width: 500px;
+}
+
+.begin_internal {
+    display: flex;
+    flex-direction: column;
+}
+
+.button_container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal_line {
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+}
