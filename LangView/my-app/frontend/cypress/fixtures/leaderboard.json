@@ -1,0 +1,18 @@
+{
+    "leaderboard": [
+        {
+            "rnk": 1,
+            "user_name": "TestUser №1",
+            "score": 10,
+            "time_seconds": 31,
+            "attempts": 1
+        },
+        {
+            "rnk": 2,
+            "user_name": "TestUser №2",
+            "score": 7,
+            "time_seconds": 42,
+            "attempts": 2
+        }
+    ]
+}

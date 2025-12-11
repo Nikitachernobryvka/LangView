@@ -1,0 +1,6 @@
+{
+    "id": 1,
+    "question_text": "Який тип даних зберігає тільки істину або хибу?",
+    "options": ["int", "boolean", "string", "float"],
+    "correct_option": 1
+}

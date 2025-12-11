@@ -1,0 +1,11 @@
+{
+    "id": 4,
+    "text": "Новий коментар",
+    "username": "CurrentTestUser",
+    "user_id": 1,
+    "replies": [],
+    "level": 0,
+    "page": "csharp",
+    "likes": 0,
+    "dislikes": 0
+}

@@ -149,7 +149,7 @@ export const CommentsSection = ({ page }) => {
 
             <ul className={styles.comments_list}>
                 {commentsList.map((comment) => (
-                    <li key={comment.id}>
+                    <li key={comment.id} data-cy={`comment-${comment.id}`}>
                         <Comment
                            data-cy={`comment-${comment.id}`}
                             parentId={Number(comment.id)}

@@ -1,0 +1,12 @@
+{
+    "id": 5,
+    "text": "Відповідь",
+    "username": "CurrentTestUser",
+    "user_id": 1,
+    "parent_id": 1,
+    "level": 1,
+    "page": "csharp",
+    "replies": [],
+    "likes": 0,
+    "dislikes": 0
+}
