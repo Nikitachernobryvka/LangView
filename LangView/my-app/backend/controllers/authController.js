@@ -38,14 +38,14 @@ export const login = async (req, res) => {
         )
 
         if (result.rows.length === 0) {
-            return res.status(400).json({message: "Користувач не знайдений"});
+            return res.status(400).json({message: "Неправильний логін або пароль"});
         }
 
         const user = result.rows[0];
 
         const isMatch = await bcrypt.compare(password, user.password);
         if (!isMatch) {
-            return res.status(400).json({message: "Неправильний пароль"});
+            return res.status(400).json({message: "Неправильний логін або пароль"});
         }
 
         const token = jwt.sign({id: user.id}, JWT_SECRET, {expiresIn: "1h"});
